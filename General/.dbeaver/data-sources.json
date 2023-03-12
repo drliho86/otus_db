@@ -1,0 +1,96 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-18674f992b5-12ae2b72ce2e7b1e": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"configuration": {
+				"host": "51.250.13.192",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://51.250.13.192:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18683d66491-304326ad4dab7ae7": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "airflow",
+			"save-password": true,
+			"configuration": {
+				"host": "158.160.51.196",
+				"port": "5432",
+				"database": "airflow",
+				"url": "jdbc:postgresql://158.160.51.196:5432/airflow",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-186d63894b5-5d976c13570c6709": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres 2",
+			"save-password": true,
+			"configuration": {
+				"host": "51.250.4.157",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://51.250.4.157:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"postgres-jdbc-186d63894b5-5d976c13570c6709": {
+			"shop": {
+				"tbl": {
+					"@properties": {
+						"erd.diagram.state": {
+							"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202303122208\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"postgres-jdbc-186d63894b5-5d976c13570c6709\"\u003e\u003centity id\u003d\"1\" name\u003d\"customer\" fq-name\u003d\"tbl.customer\" order\u003d\"0\" x\u003d\"80\" y\u003d\"20\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"delivery\" fq-name\u003d\"tbl.delivery\" order\u003d\"1\" x\u003d\"320\" y\u003d\"260\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"discount\" fq-name\u003d\"tbl.discount\" order\u003d\"2\" x\u003d\"520\" y\u003d\"280\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"emploee\" fq-name\u003d\"tbl.emploee\" order\u003d\"3\" x\u003d\"540\" y\u003d\"540\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"product\" fq-name\u003d\"tbl.product\" order\u003d\"4\" x\u003d\"700\" y\u003d\"200\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"receipt\" fq-name\u003d\"tbl.receipt\" order\u003d\"5\" x\u003d\"380\" y\u003d\"20\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"shop\" fq-name\u003d\"tbl.shop\" order\u003d\"6\" x\u003d\"220\" y\u003d\"460\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;\" order\u003d\"7\" x\u003d\"0\" y\u003d\"320\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"9\" name\u003d\"type_sell\" fq-name\u003d\"tbl.type_sell\" order\u003d\"8\" x\u003d\"220\" y\u003d\"720\"\u003e\u003cpath name\u003d\"tbl\"/\u003e\u003cpath name\u003d\"shop\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"fk_6_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_6_transaction\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"fk_3_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_3_transaction\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"fk_11_receipt\" fq-name\u003d\"tbl.receipt.fk_11_receipt\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"6\"/\u003e\u003crelation name\u003d\"fk_8_delivery\" fq-name\u003d\"tbl.delivery.fk_8_delivery\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"fk_12_discount\" fq-name\u003d\"tbl.discount.fk_12_discount\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"fk_7_shop\" fq-name\u003d\"tbl.shop.fk_7_shop\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"7\"/\u003e\u003crelation name\u003d\"fk_9_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_9_transaction\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"8\"\u003e\u003cbend type\u003d\"abs\" x\u003d\"131\" y\u003d\"780\"/\u003e\u003cbend type\u003d\"abs\" x\u003d\"342\" y\u003d\"901\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"fk_10_type_sell\" fq-name\u003d\"tbl.type_sell.fk_10_type_sell\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"fk_2_receipt\" fq-name\u003d\"tbl.receipt.fk_2_receipt\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"6\"/\u003e\u003crelation name\u003d\"fk_1_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_1_transaction\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"fk_5_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_5_transaction\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"fk_4_transaction\" fq-name\u003d\"tbl.\u0026quot;transaction\u0026quot;.fk_4_transaction\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"8\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
