@@ -1,47 +1,6 @@
 {
 	"folders": {},
 	"connections": {
-		"postgres-jdbc-18674f992b5-12ae2b72ce2e7b1e": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "postgres",
-			"save-password": true,
-			"configuration": {
-				"host": "51.250.13.192",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://51.250.13.192:5432/postgres",
-				"configurationType": "MANUAL",
-				"type": "dev",
-				"auth-model": "native"
-			}
-		},
-		"postgres-jdbc-18683d66491-304326ad4dab7ae7": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "airflow",
-			"save-password": true,
-			"configuration": {
-				"host": "158.160.51.196",
-				"port": "5432",
-				"database": "airflow",
-				"url": "jdbc:postgresql://158.160.51.196:5432/airflow",
-				"configurationType": "MANUAL",
-				"type": "dev",
-				"provider-properties": {
-					"@dbeaver-show-non-default-db@": "true",
-					"@dbeaver-show-template-db@": "false",
-					"@dbeaver-show-unavailable-db@": "false",
-					"show-database-statistics": "false",
-					"@dbeaver-read-all-data-types-db@": "false",
-					"read-keys-with-columns": "false",
-					"@dbeaver-use-prepared-statements-db@": "false",
-					"postgresql.dd.plain.string": "false",
-					"postgresql.dd.tag.string": "false"
-				},
-				"auth-model": "native"
-			}
-		},
 		"postgres-jdbc-186d63894b5-5d976c13570c6709": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
