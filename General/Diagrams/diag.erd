@@ -2,39 +2,39 @@
 <diagram version="1" name="diag.erd">
 	<entities>
 		<data-source id="postgres-jdbc-186d63894b5-5d976c13570c6709">
-			<entity id="1" name="customer" fq-name="tbl.customer" order="0" color-bg="228,255,181" x="40" y="540">
+			<entity id="1" name="customer" fq-name="tbl.customer" order="0" color-bg="228,255,181" border-width="3" x="20" y="20">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="2" name="delivery" fq-name="tbl.delivery" order="1" color-bg="228,255,181" x="440" y="800">
+			<entity id="2" name="delivery" fq-name="tbl.delivery" order="1" color-bg="228,255,181" border-width="3" x="300" y="420">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="3" name="discount" fq-name="tbl.discount" order="2" color-bg="228,255,181" x="940" y="700">
+			<entity id="3" name="discount" fq-name="tbl.discount" order="2" color-bg="228,255,181" border-width="3" x="600" y="440">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="4" name="emploee" fq-name="tbl.emploee" order="3" color-bg="228,255,181" x="540" y="1060">
+			<entity id="4" name="emploee" fq-name="tbl.emploee" order="3" color-bg="228,255,181" border-width="3" x="920" y="640">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="5" name="product" fq-name="tbl.product" order="4" color-bg="228,255,181" x="420" y="80">
+			<entity id="5" name="product" fq-name="tbl.product" order="4" color-bg="228,255,181" border-width="3" x="600" y="200">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="6" name="receipt" fq-name="tbl.receipt" order="5" color-bg="228,255,181" border-width="3" x="160" y="80">
+			<entity id="6" name="receipt" fq-name="tbl.receipt" order="5" border-width="3" x="300" y="220">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="7" name="shop" fq-name="tbl.shop" order="6" color-bg="228,255,181" x="60" y="820">
+			<entity id="7" name="shop" fq-name="tbl.shop" order="6" color-bg="228,255,181" border-width="3" x="300" y="620">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="8" name="transaction" fq-name="tbl.&quot;transaction&quot;" order="7" color-bg="228,255,181" x="240" y="500">
+			<entity id="8" name="transaction" fq-name="tbl.&quot;transaction&quot;" order="7" color-bg="228,255,181" border-width="3" x="20" y="600">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
-			<entity id="9" name="type_sell" fq-name="tbl.type_sell" order="8" color-bg="228,255,181" x="800" y="340">
+			<entity id="9" name="type_sell" fq-name="tbl.type_sell" order="8" color-bg="228,255,181" border-width="3" x="300" y="840">
 				<path name="tbl"/>
 				<path name="shop"/>
 			</entity>
@@ -48,7 +48,8 @@
 		<relation name="fk_12_discount" fq-name="tbl.discount.fk_12_discount" type="fk" pk-ref="4" fk-ref="3"/>
 		<relation name="fk_7_shop" fq-name="tbl.shop.fk_7_shop" type="fk" pk-ref="4" fk-ref="7"/>
 		<relation name="fk_9_transaction" fq-name="tbl.&quot;transaction&quot;.fk_9_transaction" type="fk" pk-ref="4" fk-ref="8">
-			<bend type="abs" x="298" y="828"/>
+			<bend type="abs" x="315" y="1045"/>
+			<bend type="abs" x="612" y="1045"/>
 		</relation>
 		<relation name="fk_10_type_sell" fq-name="tbl.type_sell.fk_10_type_sell" type="fk" pk-ref="4" fk-ref="9"/>
 		<relation name="fk_2_receipt" fq-name="tbl.receipt.fk_2_receipt" type="fk" pk-ref="5" fk-ref="6"/>
