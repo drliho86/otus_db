@@ -19,6 +19,11 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+![diag](https://user-images.githubusercontent.com/60733068/224626816-e9261e02-2650-4d76-a4da-75f1208b16aa.png)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- tbl.customer definition  
 
 -- Drop table  
@@ -62,7 +67,7 @@ CREATE TABLE tbl.emploee (
 -- DROP TABLE tbl.product;  
 
 CREATE TABLE tbl.product (  
-	id int4 NOT NULL,  
+	id int4 NOT NULL,
 	"name" varchar(50) NOT NULL,  
 	weight float8 NULL,  
 	height float8 NULL,  
@@ -90,7 +95,7 @@ CREATE TABLE tbl.delivery (
 	coord varchar(50) NULL,  
 	CONSTRAINT pk_1_delivery PRIMARY KEY (id),  
 	CONSTRAINT fk_8_delivery FOREIGN KEY (id_sotr) REFERENCES tbl.emploee(id)  
-);
+);  
 CREATE INDEX delivery_delivery_ord_idx ON tbl.delivery USING btree (delivery_ord, id_sotr);  
 
 
@@ -128,6 +133,8 @@ CREATE TABLE tbl.receipt (
 	sum_nds float8 NULL,  
 	amount float8 NULL,  
 	CONSTRAINT pk_1_receipt PRIMARY KEY (id),  
+	CONSTRAINT receipt_check CHECK ((sum >= (0)::double precision)),  
+	CONSTRAINT receipt_check_2 CHECK ((amount >= (0)::double precision)),  
 	CONSTRAINT fk_11_receipt FOREIGN KEY (id_discount) REFERENCES tbl.discount(id),  
 	CONSTRAINT fk_2_receipt FOREIGN KEY (id_product) REFERENCES tbl.product(id)  
 );  
