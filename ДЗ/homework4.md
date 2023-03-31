@@ -34,6 +34,11 @@ CREATE TABLE "groups"."group" (
 
 --------------------------------------------------------------------------------------------------
 
+![image](https://user-images.githubusercontent.com/60733068/229194311-b488b909-e48c-48e0-9083-465953dbb386.png)
+
+
+
+
 ![image](https://user-images.githubusercontent.com/60733068/229194006-125f2194-025c-490f-a34a-ed57b56a6143.png)
 
 
