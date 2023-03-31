@@ -1,36 +1,36 @@
-Домашнее задание
-DDL скрипты для postgres
+Домашнее задание  
+DDL скрипты для postgres  
 
-Цель:
-Реализовать спроектированную схему в postgres
+Цель:  
+Реализовать спроектированную схему в postgres  
 
 
-Описание/Пошаговая инструкция выполнения домашнего задания:
-Используя операторы DDL создайте на примере схемы интернет-магазина:
+Описание/Пошаговая инструкция выполнения домашнего задания:  
+Используя операторы DDL создайте на примере схемы интернет-магазина:  
 
-Базу данных.
-Табличные пространства и роли.
-Схему данных.
-Таблицы своего проекта, распределив их по схемам и
-табличным пространствам.
+Базу данных.  
+Табличные пространства и роли.  
+Схему данных.  
+Таблицы своего проекта, распределив их по схемам и  
+табличным пространствам.  
 
 
 ---------------------------------------------------------------------------------------------
 
-CREATE DATABASE shop;
+CREATE DATABASE shop;  
 
-CREATE SCHEMA "groups";
+CREATE SCHEMA "groups";  
 
-CREATE TABLESPACE ext_tabspace LOCATION '/var/lib/postgresql/15/main/';
+CREATE TABLESPACE ext_tabspace LOCATION '/var/lib/postgresql/15/main/';  
 
 
-CREATE TABLE "groups"."group" (
-	id int4 NOT NULL,
-	"name" varchar NOT NULL,
-	name2 varchar NULL,
-	description varchar NULL,
-	CONSTRAINT group_pk PRIMARY KEY (id)
-)tablespace ext_tabspace;
+CREATE TABLE "groups"."group" (  
+	id int4 NOT NULL,  
+	"name" varchar NOT NULL,  
+	name2 varchar NULL,  
+	description varchar NULL,  
+	CONSTRAINT group_pk PRIMARY KEY (id)  
+)tablespace ext_tabspace;  
 
 --------------------------------------------------------------------------------------------------
 
