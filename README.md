@@ -12,3 +12,11 @@
  <summary>Домашнее задание № 3</summary>
 3. [Установка СУБД PostgreSQL](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework3.md)  
 </details>
+ <details>
+ <summary>Домашнее задание № 4</summary>
+4. [DDL скрипты для postgres](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework4.md)  
+</details>
+ <details>
+ <summary>Домашнее задание № 5</summary>
+5. [DML в PostgreSQL](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework5.md)  
+</details>
