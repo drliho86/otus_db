@@ -21,6 +21,7 @@ DML в PostgreSQL
 
 ![image](https://user-images.githubusercontent.com/60733068/230026309-1263ac66-bc53-4a16-8777-b91dcfcaa190.png)
 
+---------------------------------------------------------------------------------------------
 
 1) <b> хочу узнать в каких категориях фильмов снимают каких актеров наиболее часто</b>   
 select c."name" as category ,a.first_name || ' ' || a.last_name as actor , count(f.film_id) count_films from film f    
@@ -35,6 +36,8 @@ c."name",count(f.film_id) desc,a.first_name || ' ' || a.last_name
 
 ![image](https://user-images.githubusercontent.com/60733068/230027705-1ee62be0-db7c-4d80-959d-4ea4e2f556bc.png)
 
+
+---------------------------------------------------------------------------------------------
 
 2) <b>использую join     - порядок влияет так что inner join обрезает данные и может ускорить процесс выборки</b>
 
@@ -52,6 +55,8 @@ c."name",count(f.film_id) desc,a.first_name || ' ' || a.last_name
 ![image](https://user-images.githubusercontent.com/60733068/230027751-1e9e2c7a-e918-40ad-857c-f9fc33217741.png)
 
 
+---------------------------------------------------------------------------------------------
+
 3)<b>Insert</b>    
 select * into fa from film_actor;   
 
@@ -60,6 +65,8 @@ values(1,1,now())
 RETURNING *;    
 
 ![image](https://user-images.githubusercontent.com/60733068/230027590-72898795-ab6a-4419-bb97-046fce017c76.png)
+
+---------------------------------------------------------------------------------------------
 
 4)<b> Update </b>    
 
@@ -72,6 +79,8 @@ RETURNING *;
 
 ![image](https://user-images.githubusercontent.com/60733068/230034347-e3dbe040-2f25-425d-83d2-688152cf1995.png)
 
+
+---------------------------------------------------------------------------------------------
 
 5)<b> Delete </b>        
 
