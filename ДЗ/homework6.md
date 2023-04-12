@@ -42,4 +42,9 @@ order by
 s.last_name     
 ;    
 
+![image](https://user-images.githubusercontent.com/60733068/231557414-d41e610a-ff47-41e8-b001-deb6963bd58b.png)
+
+CREATE INDEX staff_last_name_idx ON public.staff (last_name);
+
+
 
