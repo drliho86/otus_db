@@ -35,7 +35,7 @@
 explain analyze   
 
    
-SELECT s.last_name ,s.staff_id    
+1)SELECT s.last_name ,s.staff_id    
 FROM public.staff s   
 left join public.payment p  using(staff_id)   
 where    
@@ -45,16 +45,18 @@ last_name='Stephens'
 ![image](https://user-images.githubusercontent.com/60733068/231560946-622018a1-41a6-47bc-aa7c-4425d286a82d.png)
 
 
-CREATE INDEX staff_last_name_idx ON public.staff (last_name);   
+2)CREATE INDEX staff_last_name_idx ON public.staff (last_name);   
 
 ![image](https://user-images.githubusercontent.com/60733068/231560783-cbd52fef-1c8d-4bc1-93d1-53f9a72ec8c6.png)
 
-CREATE INDEX staff_last_name_idx ON public.staff (last_name,staff_id);   
+3)CREATE INDEX staff_last_name_idx ON public.staff (last_name,staff_id);   
 
 ![image](https://user-images.githubusercontent.com/60733068/231561176-e014b314-e500-42d2-885e-f455cc1562f7.png)
 
+---------------------------------------------------------------------------------------------
 
-Индекс только по полю фильтра увиличил время а вот 2 индекс из select дал прирост   
+   2)Индекс только по полю фильтра увиличил время 
+   3) а вот другой по 2 полям из Selectа снизил время  
 
 Индекс не особо помогает когда есть сортировка, или очень сложно сделать так чтобы он дал результат
 + если фулскан прибавки нет
