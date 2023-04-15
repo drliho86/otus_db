@@ -64,29 +64,37 @@ VALUES
 ('Jackie',4,2020,29),    
 ('Jet',5,2020,27); 
 
-+ select year_game ,sum(points) points_sum   
-  from statistic   
-  group by   
-  year_game    
-  order by   
-  year_game;   
++ select 	    
+	year_game     
+	,sum(points) points_sum    
+from statistic    
+group by    
+	year_game     
+order by    
+	year_game;    
   
   ![image](https://user-images.githubusercontent.com/60733068/232181474-5b4beeaf-b549-44a5-81fc-15751f74f96b.png)
 
 + with cte as (     
-  select year_game ,sum(points) points_sum    
-  from statistic    
-  group by    
-  year_game     
+select      
+	year_game      
+	,sum(points) points_sum     
+from statistic     
+group by     
+	year_game      
 
-  )    
-  select * from cte     
-  order by    
-  year_game     
+)     
+select *      
+	from cte      
+	order by     
+year_game       
   
   ![image](https://user-images.githubusercontent.com/60733068/232181532-6947243b-82a4-4c6a-97e1-119ffd8abefd.png)
 
-+ select player_name,year_game,points,lag(points) over (partition by player_name order by year_game) as "LY points"   
-  from statistic;   
++ select    
+	player_name    
+	,year_game,points    
+	,lag(points) over (partition by player_name order by year_game) as "LY points"    
+from statistic;      
   
   ![image](https://user-images.githubusercontent.com/60733068/232181626-ed005cdf-c64b-42c1-8535-456951dd1397.png)
