@@ -21,10 +21,10 @@
 5. [DML: вставка, обновление, удаление, выборка данных](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework5.md)  
 </details>
  <details>
- <summary>Домашнее задание № 5</summary>
+ <summary>Домашнее задание № 6</summary>
 6. [Индексы PostgreSQL](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework6.md)  
 </details>
  <details>
- <summary>Домашнее задание № 5</summary>
+ <summary>Домашнее задание № 7</summary>
 7. [DML: агрегация и сортировка, CTE, аналитические функции](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework7.md)  
 </details>
