@@ -33,7 +33,8 @@
 ![image](https://github.com/drliho86/otus_db/assets/60733068/6e63e96b-d6c2-41f7-a92e-3ecc1cb79d39)
 
 
-![image](https://github.com/drliho86/otus_db/assets/60733068/dcb53c18-4b64-42c5-b69c-0197a17d4609)
+![image](https://github.com/drliho86/otus_db/assets/60733068/17eff559-c7c0-492a-90e6-dcb185f6d265)
+
 
 ![image](https://github.com/drliho86/otus_db/assets/60733068/e1f79c9b-7b12-447a-b006-fc89d3263daf)
 
