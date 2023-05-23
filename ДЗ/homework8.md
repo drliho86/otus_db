@@ -23,40 +23,42 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Физическая Репликация:
+Физическая Репликация:    
 
 
-1) Настройка Реплики и запуск 
-![image](https://github.com/drliho86/otus_db/assets/60733068/ab248b72-64a7-4969-8a9c-b1a0cfc1b2b0)
+1) Настройка Реплики и запуск     
+![image](https://github.com/drliho86/otus_db/assets/60733068/ab248b72-64a7-4969-8a9c-b1a0cfc1b2b0)    
 
-2)настройка отставания 5 мин
-![image](https://github.com/drliho86/otus_db/assets/60733068/6e63e96b-d6c2-41f7-a92e-3ecc1cb79d39)
-
-
-![image](https://github.com/drliho86/otus_db/assets/60733068/17eff559-c7c0-492a-90e6-dcb185f6d265)
+2)настройка отставания 5 мин    
+![image](https://github.com/drliho86/otus_db/assets/60733068/6e63e96b-d6c2-41f7-a92e-3ecc1cb79d39)       
 
 
-![image](https://github.com/drliho86/otus_db/assets/60733068/e1f79c9b-7b12-447a-b006-fc89d3263daf)
+
+![image](https://github.com/drliho86/otus_db/assets/60733068/17eff559-c7c0-492a-90e6-dcb185f6d265)        
 
 
-Логическая репликация:
 
-1) Настройка мастера:
-![image](https://github.com/drliho86/otus_db/assets/60733068/0c3d072b-87f2-421d-8314-58c0900f1b24)
+![image](https://github.com/drliho86/otus_db/assets/60733068/e1f79c9b-7b12-447a-b006-fc89d3263daf)    
 
-    создаем публикацию на пустую таблицу:  
-    ![image](https://github.com/drliho86/otus_db/assets/60733068/47aae508-7fd5-4dac-beb7-83de32d2f3ad)
-    ![image](https://github.com/drliho86/otus_db/assets/60733068/405f0c53-35cf-4e84-92f2-972a30bf9a8d)
 
-2) Настройка реплики:
+Логическая репликация:    
 
-![image](https://github.com/drliho86/otus_db/assets/60733068/fed930cc-bcc9-4279-82f4-5ceace3219a7)
+1) Настройка мастера:    
+![image](https://github.com/drliho86/otus_db/assets/60733068/0c3d072b-87f2-421d-8314-58c0900f1b24)    
 
-3) проверяем создаем 3 поля в таблице
-![image](https://github.com/drliho86/otus_db/assets/60733068/f735631e-8503-4202-a3c9-84f125270dc3)
+    создаем публикацию на пустую таблицу:     
+    ![image](https://github.com/drliho86/otus_db/assets/60733068/47aae508-7fd5-4dac-beb7-83de32d2f3ad)    
+    ![image](https://github.com/drliho86/otus_db/assets/60733068/405f0c53-35cf-4e84-92f2-972a30bf9a8d)    
 
-4) Проверяем в таблице назначения
- ![image](https://github.com/drliho86/otus_db/assets/60733068/f77d6dee-17fa-42e1-adcd-b8c26f14fa2f)
+2) Настройка реплики:    
+
+![image](https://github.com/drliho86/otus_db/assets/60733068/fed930cc-bcc9-4279-82f4-5ceace3219a7)    
+
+3) проверяем создаем 3 поля в таблице    
+![image](https://github.com/drliho86/otus_db/assets/60733068/f735631e-8503-4202-a3c9-84f125270dc3)    
+
+4) Проверяем в таблице назначения    
+ ![image](https://github.com/drliho86/otus_db/assets/60733068/f77d6dee-17fa-42e1-adcd-b8c26f14fa2f)    
 
 
 
