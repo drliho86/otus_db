@@ -41,5 +41,22 @@
 
 Логическая репликация:
 
+1) Настройка мастера:
+![image](https://github.com/drliho86/otus_db/assets/60733068/0c3d072b-87f2-421d-8314-58c0900f1b24)
+
+    создаем публикацию на пустую таблицу:  
+    ![image](https://github.com/drliho86/otus_db/assets/60733068/47aae508-7fd5-4dac-beb7-83de32d2f3ad)
+    ![image](https://github.com/drliho86/otus_db/assets/60733068/405f0c53-35cf-4e84-92f2-972a30bf9a8d)
+
+2) Настройка реплики:
+
+![image](https://github.com/drliho86/otus_db/assets/60733068/fed930cc-bcc9-4279-82f4-5ceace3219a7)
+
+3) проверяем создаем 3 поля в таблице
+![image](https://github.com/drliho86/otus_db/assets/60733068/f735631e-8503-4202-a3c9-84f125270dc3)
+
+4) Проверяем в таблице назначения
+ ![image](https://github.com/drliho86/otus_db/assets/60733068/f77d6dee-17fa-42e1-adcd-b8c26f14fa2f)
+
 
 
