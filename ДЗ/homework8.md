@@ -27,7 +27,8 @@
 
 
 1) Настройка Реплики и запуск     
-![image](https://github.com/drliho86/otus_db/assets/60733068/ab248b72-64a7-4969-8a9c-b1a0cfc1b2b0)    
+![image](https://github.com/drliho86/otus_db/assets/60733068/0877864b-19ec-4559-8625-f8677618c052)
+
 
 2)настройка отставания 5 мин    
 ![image](https://github.com/drliho86/otus_db/assets/60733068/6e63e96b-d6c2-41f7-a92e-3ecc1cb79d39)       
