@@ -28,3 +28,7 @@
  <summary>Домашнее задание № 7</summary>
 7. [DML: агрегация и сортировка, CTE, аналитические функции](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework7.md)  
 </details>
+ <details>
+ <summary>Домашнее задание № 8</summary>
+8. [DДелаем физическую и логическую репликации](https://github.com/drliho86/otus_db/blob/main/%D0%94%D0%97/homework8.md)  
+</details>
